@@ -1,0 +1,13 @@
+.HomeView {
+  padding: 100px;
+  object-fit: contain;
+  
+}
+
+
+
+#imgStep img{
+  scale: 80%;
+  overflow: visible;
+}
+

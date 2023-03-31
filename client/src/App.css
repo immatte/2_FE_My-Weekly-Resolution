@@ -1,0 +1,173 @@
+*{
+    text-align: center;
+}
+
+.start{
+    scale: 60%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.logout{
+    height: 70px;
+    border: 1px solid grey;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    font-stretch: condensed;
+    font-weight: bolder;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.logout:hover{
+    color: rgb(11, 214, 214);
+    background-color: rgb(85, 61, 5);
+    cursor: pointer;
+}
+
+.home {
+    height: 70px;
+    border: 1px solid grey;
+    background-color: rgb(231, 231, 231);
+    color: rgb(72, 72, 72);
+    border-radius: 30px;
+}
+
+.home a{
+    color: rgb(72, 72, 72);
+    border: 0px;
+    font-style: normal;
+    font-size: 300%;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+.home:hover{
+    color: rgb(11, 214, 214);
+    background-color: rgb(85, 61, 5);
+}
+
+.home a:hover{
+    color: rgb(11, 214, 214);
+    background-color: rgb(85, 61, 5);
+}
+
+
+
+.login {
+    border: 1px solid grey;
+    background-color: rgb(231, 231, 231);
+    color: rgb(72, 72, 72);
+    border-radius: 30px;
+}
+
+.login a{
+    color: rgb(72, 72, 72);
+    /* border: 1px solid grey; */
+    padding: 20px 30px;
+    font-stretch: condensed;
+    font-weight: bolder;
+    font-size: 180%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.login:hover{
+    background-color: rgb(85, 61, 5);
+    color: rgb(11, 214, 214);
+}
+
+.login a:hover{
+    color: rgb(11, 214, 214);
+}
+
+
+
+.App{
+    border: 2px solid rgba(128, 128, 128, 0.396);
+    border-radius: 80px;
+    width: 1300px;
+}
+
+.container{
+    padding: 60px;
+    border: 120px;
+    border-radius: 80px;
+    margin: 0px;
+}
+
+h1 {
+    color: rgb(133, 23, 78);
+    padding: 40px;
+    font-size: 500%;
+    font-stretch: narrower;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    font-stretch: ultra-condensed;
+    text-decoration: underline overline dotted 5px rgb(168, 158, 158);
+    line-height: 120px;
+}
+
+h2{
+    color: rgb(133, 23, 78);
+}
+
+div.container {
+    border: 80px solid rgb(233, 232, 232);
+}
+
+.navbar{
+   border: 2px solid rgb(231, 188, 188);
+   background-color: rgb(246, 232, 214);
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   padding: 20px;
+   margin: 20px;
+   box-shadow: 1px 1px 10px 1px rgba(72, 72, 72, 0.208);
+   
+} 
+
+#navbar{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text1{
+    display: contents;
+}
+
+.buttons{
+    background-color: rgb(246, 231, 214);
+    border: 0;
+    margin: 0px;  
+    font-style: bold;
+}
+.buttons a{
+    display: flex;
+
+    color: rgb(72, 72, 72);
+    font-stretch: condensed;
+    font-weight: 900;
+    font-size: 150%;
+    text-transform: uppercase;
+    background-color: rgb(221, 168, 44);
+    text-decoration: none;
+    padding: 40px 20px;
+    border: 2px solid rgb(169, 145, 92); 
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(72, 72, 72, 0.208);
+}
+
