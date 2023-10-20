@@ -1,8 +1,18 @@
-# **MVP Project Description: My Weekly Resolutions**
+# ** FEATURE EXTENSION PROJECT**
+# ** My Weekly Resolutions**
 
 ## **SUMMARY**
 
 It is an app that aims to organise and keep track of your resolutions for the week. 
+
+## **SET-UP**
+
+1. Git clone repo
+2. run command "npm install" in local repo "2_FR_My-Weekly-Resolution" and in "2_FR_My-Weekly-Resolution/client"
+3. Create database in MySQL called "resolutions"
+4. run command "npm migrate" 
+5. use "npm start" to run the backend and frontend
+
 
 ## **MOTIVATION AND DESCRIPTION**
 
